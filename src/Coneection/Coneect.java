@@ -8,7 +8,7 @@ public class Coneect {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 	}
 	public static Connection AvoirConnection() throws SQLException {
-		Connection cont=DriverManager.getConnection("jdbc:mysql://localhost:3306/absence","HAJAR","alouahajar2002");
+		Connection cont=DriverManager.getConnection("jdbc:mysql://localhost:3306/databaseName","username","password");
 		return cont;
 	}
 
